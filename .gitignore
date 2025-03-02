@@ -1,0 +1,63 @@
+# Archivos y directorios relacionados con Python
+__pycache__/          # Directorio que contiene el bytecode de Python
+*.py[cod]             # Archivos de bytecode de Python (*.pyc, *.pyo, *.pyd)
+*$py.class           # Archivos compilados de Python
+*.so                 # Extensiones C
+.Python              # Archivos byte-compilados de Python
+build/               # Directorio de construcción
+develop-eggs/        # Directorio de eggs de desarrollo
+dist/                # Directorio de distribución
+downloads/           # Directorio de descargas
+eggs/                # Directorio de eggs
+.eggs/               # Directorio oculto de eggs
+lib/                 # Directorio de bibliotecas
+lib64/               # Directorio de bibliotecas de 64 bits
+parts/               # Directorio de partes
+sdist/               # Directorio de distribución de fuentes
+var/                 # Directorio de variables
+wheels/              # Directorio de wheels de Python
+*.egg-info/          # Directorio de metadatos egg
+.installed.cfg       # Configuración de instalación
+*.egg                # Archivos egg
+
+# Entorno Virtual - directorios para entornos Python aislados
+venv/                # Directorio estándar de entorno virtual
+env/                 # Nombre alternativo de entorno virtual
+ENV/                # Otro nombre común de entorno virtual
+.env                # Archivo de variables de entorno
+.venv               # Directorio oculto de entorno virtual
+env.bak/            # Respaldo de entorno virtual
+venv.bak/           # Respaldo de venv
+
+# Jupyter Notebook - Archivos de computación interactiva
+.ipynb_checkpoints   # Directorio de autoguardado de notebooks
+*/.ipynb_checkpoints/*  # Puntos de control en todos los subdirectorios
+
+# VS Code - Archivos específicos del editor
+.vscode/            # Directorio de configuración de VS Code
+*.code-workspace    # Archivos de espacio de trabajo de VS Code
+
+# Archivos de datos - Formatos comunes de datos (ajustar según necesidades)
+*.csv               # Archivos de valores separados por comas
+*.json              # Archivos de datos JSON
+*.xlsx              # Archivos Excel (formato nuevo)
+*.xls               # Archivos Excel (formato antiguo)
+*.db                # Archivos de base de datos
+*.sqlite3           # Archivos de base de datos SQLite
+
+# Archivos generados por el Sistema Operativo
+.DS_Store           # Metadatos de directorio macOS
+Thumbs.db           # Caché de miniaturas de Windows
+
+# Registros y depuración
+*.log               # Archivos de registro
+logs/               # Directorio de registros
+
+# Configuraciones de entorno local
+.env.local          # Variables de entorno locales
+.env.development.local  # Variables de entorno de desarrollo
+.env.test.local        # Variables de entorno de pruebas
+.env.production.local  # Variables de entorno de producción
+
+# Archivo específico de descargas
+download.txt
